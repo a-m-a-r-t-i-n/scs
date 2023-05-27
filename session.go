@@ -105,7 +105,7 @@ func New() *SessionManager {
 		ErrorFunc:   defaultErrorFunc,
 		contextKey:  generateContextKey(),
 		Cookie: SessionCookie{
-			Name:     "session",
+			Name:     "derpderpderp",
 			Domain:   "",
 			HttpOnly: true,
 			Path:     "/",
